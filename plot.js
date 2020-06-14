@@ -1,5 +1,6 @@
-const puppeteer = require(`puppeteer`)
-
+// const request = require('request-promise')
+// const cheerio = require('cheerio')
+//
 // async function query({url}) {
 //   const html = await request(url)
 //   const $ = cheerio.load(html)
@@ -15,6 +16,8 @@ const puppeteer = require(`puppeteer`)
 //     })
 //     .get()
 // }
+
+const puppeteer = require(`puppeteer`)
 
 async function query({url}) {
   const browser = await puppeteer.launch()
